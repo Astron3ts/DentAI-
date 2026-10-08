@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+.vscode/
+
+# Datasets (large image files)
+Final_dataset/
+Dataset-1/
+Dataset-2/
+*.zip
+*.tar.gz
+
+# Model Weights (>50MB models best tracked via Releases or Git LFS)
+*.pth
+*.pt
+*.onnx
+
+# Manifest & Data CSVs
+dataset_audit_manifest.csv
+external_generalization_results.csv
+multilabel_screening_benchmark.csv
+xai_quantitative_benchmark.csv
+
+# Images
+*.png
+*.jpg
+*.jpeg
+
+# Research scripts & documents
+multilabel_pipeline.py
+xai_quantitative.py
+evaluate_external.py
+PAPER_SUBMISSION_BLUEPRINT.md
+ARCHITECTURE.md
+
+# Temporary outputs
+*.log
+scratch/
+saved_images/

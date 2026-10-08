@@ -1,0 +1,24 @@
+# Core deep learning
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+torchaudio==2.11.0+cu128
+
+# Grad-CAM explainability
+grad-cam>=1.5.4
+
+# Data & visualisation
+numpy>=1.26.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+Pillow>=10.0.0
+opencv-python>=4.9.0
+
+# ML evaluation metrics
+scikit-learn>=1.4.0
+
+# Web dashboard
+streamlit>=1.35.0
+
+# Training progress bar
+tqdm>=4.66.0
+
