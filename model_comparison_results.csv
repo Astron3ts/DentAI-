@@ -1,0 +1,3 @@
+Architecture,Macro F1,95% CI,Balanced Acc,Latency (ms),Parameters (M),Model Size
+MobileNetV2,0.9542,"[0.9480, 0.9604]",0.9536,4.64 ms,2.23 M,8.7 MB
+ResNet50,0.9575,"[0.9514, 0.9635]",0.9590,5.91 ms,23.52 M,90.0 MB
