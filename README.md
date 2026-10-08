@@ -17,15 +17,6 @@ The system compares **MobileNetV2** (lightweight edge/mobile candidate) against 
 
 ---
 
-## 🚀 Key Highlights
-* **Comparative Transfer Learning:** Evaluates MobileNetV2 vs. ResNet50 on Macro F1, balanced accuracy, latency, and model size.
-* **Explainable AI (Grad-CAM):** Visualizes region-of-interest attention heatmaps over suspected oral conditions.
-* **Safety & Confidence Gate:** Automatically suppresses outputs when prediction confidence is below a safety threshold.
-* **0–100 Screening Index:** Converts accepted classifications into a calibrated non-clinical indicator.
-* **Conservative Clinical Guidance:** Provides ethical, non-prescriptive daily hygiene roadmaps and professional referral flags.
-* **Interactive Dashboard:** Full Streamlit diagnostic interface with single-model and comparative inspection modes.
-
----
 
 ## ⚡ Quickstart
 
